@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	overflow-x: hidden;
+}
+
+header{
+	position: fixed;
+	z-index: 1;
+	top: 40px;
+	width: 100vw;
+	
+}
+
+header .language {
+	float: right;
+	height: 60px;
+	margin-right: 2.1vw;
+	text-align: center;
+}
+
+body.en header .language .en{
+	color: #fff;
+}
+
+body.cn header .language .cn{
+	color: #fff;
+}
+
+.language a{
+	display: inline-block;
+	margin-bottom: 1.5vw;
+	color: #999;
+	font-size: 16px;
+	
+}
+
+header .logo{
+	float: left;
+	width:12.3rem;
+	height: 60px;
+	background-color: #ed6c00;
+	
+}
+header nav {
+	float: left;
+	width: 28px;
+	height: 22px;
+}
+
+
+.side_menu{
+	position: fixed;
+	display: block;
+	z-index: 2;
+	list-style: none;
+	padding: 0;
+	line-height: 30px;
+	list-style-position: outside;
+	margin: 16px 16px;
+	top: 350px;
+	color: #fff;
+}
+
+
+.page-fa{
+	display: block;
+	width: 100vw;
+	color: black;
+	
+}
+
+.page-bg
+{
+	position: relative;
+	width: 100vw;
+	height: 1080px;
+}
+.page-bg .middle
+{
+	position:absolute;
+	top: 30vh;
+	width: 100vw;
+	height: 40%;
+	align-items: flex-start;
+	flex-direction:column;
+	padding:0px 20vw;
+	min-width: 432px;
+}
+
+
+
+
+.index_aboutus .page-bg {
+	background-image: url(../public/img/bg/bg_1.png);
+}
+
+.indicate{
+	position: absolute;
+	right: 5vw;
+	top: 40vh;
+	height: 20vh;
+	width: 2vw;
+	background-color: aqua;
+}
+.indicate .line{
+	width: 2px;
+	height: 100%;
+	color: aliceblue;
+}
+
+.index_product .page-bg {
+	background-image: url(../public/img/bg/bg_2.png);
+}
+.product-menu {
+	position: absolute;
+	right: 2vw;
+	top: 40vh;
+}
+
+
+.index_case .page-bg {
+	background-image: url(../public/img/bg/bg_3.png);
+	background-color: #eeeeee;
+}
+.case-middle {
+	position: absolute;
+	top: 20vh;
+	width: 100vw;
+}
+.case-menu {
+	position: absolute;
+	background-color: aqua;
+	width: 77rem;
+	height: 660px;
+	left: 18vw;
+	
+}
+.kind-rectangle{
+	display: inline-block;
+	margin: 0;
+	width: 34rem;
+	height: 330px;
+	
+}
+.kind-square{
+	display: inline-block;
+	margin: 0;
+	width: 21rem;
+	height: 330px;
+	
+}
+
+
+
+
+.index_news .page-bg {
+	
+}
+.new-middle{
+	width: 100vw;
+}
+.news-menu{
+	width: 70rem;
+	background-color: aqua;
+	position: absolute;
+	left: 20vw;
+	top: 10vh;
+	
+}
+
+.new-1{
+	display: inline-block;
+	width: 18rem;
+	height: 810px;
+	background-color: #ed6c00;
+	margin-left: 5px;
+}
+.new-2{
+	display: inline-block;
+	width: 26rem;
+	height: 810px;
+	background-color: #ed6c00;
+	margin-left: 5px;
+}
+.new-3or4{
+	display: inline-block;
+	width: 18rem;
+	height: 810px;
+	margin-left: 5px;
+	
+}
+
+
+.new-3{
+	display: inline-block;
+	width: 18rem;
+	height: 390px;
+	background-color: #ed6c00;
+	
+}
+.new-4{
+	position: absolute;
+	display: block;
+	width: 18rem;
+	height: 390px;
+	background-color: #ed6c00;
+}
+.news-menu .date{
+	
+	margin: 40px 0px 60px 20px;
+}
+.news-menu h4{
+	font-size: 30px;
+	margin: 0px 20px 0px 20px;
+}
+.news-menu p{
+	font-size: 20px;
+	margin: 0px 20px 0px 20px;
+}
+.install-middle{
+	width: 100vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.index_install .page-bg {
+	background-image: url(../public/img/bg/bg_1.png);
+}
+.index_contact .page-bg {
+	background-image: url(../public/img/bg/bg_6.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
